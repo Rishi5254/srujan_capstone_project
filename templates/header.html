@@ -47,9 +47,6 @@
               <a class="nav-link" href="{{ url_for('register') }}">Register</a>
             </li>
           {% endif %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('homepage') }}">Contact</a>
-          </li>
           {% if logged_in: %}
           <li class="nav-item">
             <a class="nav-link" href="{{ url_for('logout') }}">Log Out</a>
